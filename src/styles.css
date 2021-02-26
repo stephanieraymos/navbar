@@ -5,7 +5,7 @@
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: hsl(133, 90%, 24%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
   --clr-primary-7: hsl(205, 90%, 76%);
@@ -197,6 +197,7 @@ nav {
   }
   .nav-toggle {
     display: none;
+    color: var(--clr-primary-5);
   }
   .links-container {
     height: auto !important;
