@@ -8,6 +8,11 @@ const Navbar = () => {
   const linksContainerRef = useRef(null); //For DIV
   const linksRef = useRef(null); //For UL
 
+  useEffect(() => {
+    const linksHeight = linksRef.current.getBoundingClientRect(); //Returning size values for links
+    console.log(linksHeight);
+  }, [showLinks]); //Everytime showLinks changes, run the useEffect
+
   return (
     <nav>
       <div className="nav-center">
