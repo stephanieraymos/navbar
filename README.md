@@ -1,2 +1,2 @@
 # React Navbar
-## [Live Project](https://grocery-bud-react-app.netlify.app/)
+## [Live Project](https://react-navbar-top.netlify.app/)
